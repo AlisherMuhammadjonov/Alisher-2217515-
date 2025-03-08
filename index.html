@@ -4,29 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <div class="container">
+            <h1>Welcome to My Beautiful Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#external">External Sites</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>This is a simple website made with HTML, CSS, and JavaScript!</p>
-        </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>This website is created to showcase my web development skills. It's built using HTML, CSS, and GitHub Pages.</p>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <button id="contactButton">Click Me</button>
-        </section>
-    </main>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you want to reach out to me, feel free to <a href="mailto:example@example.com">email me</a>.</p>
+        </div>
+    </section>
+
+    <section id="external">
+        <div class="container">
+            <h2>External Links</h2>
+            <p>Check out these awesome sites:</p>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            </ul>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 My Beautiful Website. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
