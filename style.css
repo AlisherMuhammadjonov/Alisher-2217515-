@@ -119,3 +119,9 @@ footer p {
 .assignment-part ul li {
   margin-bottom: 20px;
 }
+.container-main {
+  text-transform: uppercase;
+}
+.title {
+  text-transform: uppercase;
+}
